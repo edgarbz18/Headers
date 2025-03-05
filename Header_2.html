@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <title>Header_2</title>
+        <style>
+            header {
+                display: flex;
+                justify-content: space-between;
+            }
+            body {
+                background-image:url(img/paisaje.jpg);
+                background-size: cover;
+            }
+            .logo {
+                width: 10px;
+                height: 10px;
+            }
+            .menu {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+
+            ul {
+                display: flex;
+                gap: 50px;
+                list-style-type: none;
+            }
+
+            a {
+                color: white;
+                text-decoration: none;
+            }
+
+            a:hover {
+                text-decoration: underline;
+            }
+
+            .sociales {
+                margin-right: 50px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            
+        </style>
+    </head>
+    <body>
+        <header class="header">
+            <img src="img/logo.png" alt="logo" width="200px" height="120px">
+            <div  class="menu">
+                <ul>
+                   <li><a href="">INICIO</a></li> 
+                   <li><a href="">DESCUBRIR</a></li> 
+                   <li><a href="">EXPERIENCIAS</a></li> 
+                   <li><a href="">GALERIA</a></li> 
+                   <li><a href="">CONTACTANOS</a></li> 
+                   <li><a href="">HONORARIOS</a></li> 
+                </ul>
+            </div>
+            <div class="sociales">
+                <ul>
+                    <li><a class="facebook" href="https://www.facebook.com" target="_blank" rel="noreferrer noopener"><img src="img/facebook.png" alt="" width="40px" height="40px"></a></li>
+                    <li><a class="instagram" href="https://www.instagram.com" target="_blank" rel="noreferrer noopener"><img src="img/instagram.png" alt="" width="40px" height="40px"></a></li>
+                </ul>
+            </div>
+
+        </header>
+
+    </body>
+</html>
